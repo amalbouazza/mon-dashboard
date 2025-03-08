@@ -20,3 +20,12 @@ export default {
   },
   plugins: [],
 } satisfies Config;
+module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}", // Inclut tous les fichiers dans le dossier `app`
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
